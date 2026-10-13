@@ -17,9 +17,9 @@ num = n
 freq_map={}
 for i in range (0, len(n)):
 
-    if num == freq_map(num[i]):
-        freq_map(num[i])+=1
+    if num[i] in freq_map:
+        freq_map[num[i]] += 1
     else:
-        freq_map(num[i])=1
+        freq_map[num[i]] = 1
 
 print(freq_map)
