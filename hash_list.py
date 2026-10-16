@@ -21,5 +21,8 @@ for i in range (0, len(n)):
         freq_map[num[i]] += 1
     else:
         freq_map[num[i]] = 1
+for i in range(0, len(freq_map)):
+    if m[i] in freq_map:
+        print(freq_map[num[i]])
+# print(freq_map)
 
-print(freq_map)
